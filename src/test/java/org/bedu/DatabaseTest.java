@@ -23,7 +23,7 @@ class DatabaseTest {
     }
 
     @Test
-    @DisplayName("Database can insert data")
+    @DisplayName("Database can insert data  ")
     public void insert() {
         db.insert(new Product(1, "Coca Cola 3lt"));
         db.insert(new Product(2, "Gansito"));
